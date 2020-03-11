@@ -26,6 +26,9 @@ circle
 235 415 0 5
 circle
 265 415 0 5
+#face
+hermite
+250 400 275 375 300 350 325 325
 display
 save
 snowman.png
