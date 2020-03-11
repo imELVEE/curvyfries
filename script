@@ -30,7 +30,7 @@ circle
 hermite
 225 375 275 375 -50 -50 50 100
 bezier
-200 250 150 50 300 250 300 250
+235 410 230 385 265 410 265 410
 display
 save
 snowman.png
