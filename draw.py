@@ -3,7 +3,14 @@ from matrix import *
 
 
 def add_circle( points, cx, cy, cz, r, step ):
-    pass
+    #x = rcos(2pit)+Cx
+    #y = rsin(2pit)+Cy
+    t = 0
+    while (t <= 1):
+        xcoord = r * math.cos(2 * math.pi * t) + cx
+        ycoord = r * math.sin(2 * math.pi * t) + cy
+        add_point(points,xcoord,ycoord,cz)
+        t += step
 
 def add_curve( points, x0, y0, x1, y1, x2, y2, x3, y3, step, curve_type ):
     #Rt = (-P0 + 3P1 - 3P2 + P3)t^3 + (3P0 - 6P1 + 3P2)t^2 + (-3P0 + 3P1)t + P0

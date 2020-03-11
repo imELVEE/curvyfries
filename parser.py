@@ -105,6 +105,9 @@ def parse_file( fname, edges, transform, screen, color ):
             add_curve(edges, float(args[0]), float(args[1]), float(args[2]), float(args[3]), float(args[4]), float(args[5]), float(args[6]), float(args[7]), .001, 'hermite')
 
         elif line == 'bezier':
-            add_curve(edges, float(args[0]), float(args[1]), float(args[2]), float(args[3]), float(args[4]), float(args[5]), float(args[6]), float(args[7]), .001, 'bezier')		
-		
+            add_curve(edges, float(args[0]), float(args[1]), float(args[2]), float(args[3]), float(args[4]), float(args[5]), float(args[6]), float(args[7]), .001, 'bezier')
+
+        elif line == 'circle':
+            add_cicle(edges, float(args[0]), float(args[1]), float(args[2]), float(args[3]), 0.001)
+
         c+= 1
