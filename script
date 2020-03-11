@@ -16,16 +16,16 @@ circle
 250 165 0 5
 #middle buttons (3)
 circle
-250 230 0 5
+250 266 0 5
 circle
-250 245 0 5
+250 299 0 5
 circle
-250 260 0 5
+250 332 0 5
 #eyes
 circle
-225 425 0 5
+235 415 0 5
 circle
-275 425 0 5
+265 415 0 5
 display
 save
 snowman.png
