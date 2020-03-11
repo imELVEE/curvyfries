@@ -2,9 +2,9 @@
 circle
 250 100 0 100
 circle
-250 250 0 50
+250 275 0 75
 circle
-250 325 0 25
+250 400 0 50
 display
 save
 snowman.png
