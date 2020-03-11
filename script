@@ -4,7 +4,7 @@ circle
 circle
 250 275 0 75
 circle
-250 350 0 50
+250 400 0 50
 #bottom buttons (4)
 circle
 250 66 0 5
@@ -14,6 +14,13 @@ circle
 250 132 0 5
 circle
 250 165 0 5
+#middle buttons (3)
+circle
+250 30 0 5
+circle
+250 45 0 5
+circle
+250 60 0 5
 display
 save
 snowman.png
